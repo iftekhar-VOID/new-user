@@ -25,4 +25,32 @@ nav{
     padding: 20px;
     background: white;
     border-radius: 10px;
+}.container{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.container h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.container p{
+    font-size: 20px;
+    color: gray;
+}
+
+button{
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    background: #0077ff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #005ecc;
 }
