@@ -259,3 +259,66 @@ button:hover{
     }
 
 }
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    min-height:100vh;
+
+    padding:120px 10%;
+}
+
+.hero-text{
+    width:55%;
+}
+
+.hero-image{
+    width:40%;
+    display:flex;
+    justify-content:center;
+}
+
+.hero-image img{
+
+    width:320px;
+    height:320px;
+
+    border-radius:50%;
+
+    border:6px solid #38bdf8;
+
+    object-fit:cover;
+
+    box-shadow:0 0 40px rgba(56,189,248,.5);
+
+    animation:float 3s ease-in-out infinite;
+}
+
+.hero-btns{
+    margin-top:30px;
+}
+
+.btn2{
+
+    margin-left:15px;
+
+    background:transparent;
+
+    border:2px solid #38bdf8;
+}
+@keyframes float{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-20px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
