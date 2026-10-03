@@ -308,3 +308,32 @@ nav ul{
 }
 
 }
+.hero-text{
+    animation: fadeInLeft 1s ease;
+}
+
+.hero-image{
+    animation: fadeInRight 1s ease;
+}
+
+@keyframes fadeInLeft{
+    from{
+        opacity:0;
+        transform:translateX(-80px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+@keyframes fadeInRight{
+    from{
+        opacity:0;
+        transform:translateX(80px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
